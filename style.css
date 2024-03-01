@@ -4,55 +4,60 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.header {
-    background-color: #333;
-    color: #fff;
-}
+/*------------------------------------- HEADER --------------------------------------*/
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+
+/* ---------------------------- MAIN ----------------------------------*/
+main {
     padding: 10px;
+    background-color: blueviolet;
 }
 
-nav a {
-    text-decoration: none;
+#carouselExampleAutoplaying {
+    width: 70%;
+    /* Ajuste a largura conforme necessário */
+    margin: auto;
+    /* Centraliza o carrossel na página */
+}
+
+/* Adiciona estilo às imagens dentro do carrossel */
+.carousel-item img {
+    height: 400px;
+    /* Ajuste a altura conforme necessário */
+    object-fit: cover;
+    /* Mantém a proporção da imagem ao cobrir o contêiner */
+}
+
+/* Adiciona estilo aos controles do carrossel */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+    /* Ajuste a largura conforme necessário */
+}
+
+/* Adiciona estilo ao ícone dos controles do carrossel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #333;
+    /* Cor de fundo dos ícones */
+    border: 1px solid #fff;
+    /* Borda dos ícones */
+    border-radius: 5px;
+    /* Borda arredondada dos ícones */
+}
+
+/* Adiciona estilo ao texto "Previous" e "Next" dos controles do carrossel */
+.carousel-control-prev span,
+.carousel-control-next span {
     color: #fff;
-}
-
-ul {
-    list-style: none;
-    display: flex;
-}
-
-ul li {
-    margin-right: 10px;
-
-}
-
-.search-bar {
-    display: flex;
-}
-
-.search-bar input {
-    padding: 5px;
-    margin-right: 5px;
-}
-
-.search-bar button {
-    padding: 5px;
-    background-color: #555;
-    color: #fff;
-    border: none;
-    cursor: pointer;
+    /* Cor do texto */
+    font-size: 1.5rem;
+    /* Tamanho da fonte */
 }
 
 
-
-
-
-
+/*----------------------------------FOOTER-------------------------------------------------*/
 
 
 
